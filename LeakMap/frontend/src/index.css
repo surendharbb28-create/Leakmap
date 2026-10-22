@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  min-height: 100vh;
+}
+
+body {
+  background: #12181C;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A343A;
+  border-radius: 4px;
+}
+
+.cell-hover:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
